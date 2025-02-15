@@ -21,11 +21,7 @@ const About = () => {
                   Frontend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
+                Crafting responsive and dynamic user interfaces using React.js, Tailwind CSS, and modern UI libraries. I prioritize performance, accessibility, and a smooth user experience.
                 </p>
               </span>
             </div>
@@ -37,8 +33,7 @@ const About = () => {
                   Database developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                Building robust and scalable backend architectures using Node.js and Express.js. I focus on API development, authentication, and server-side logic to ensure seamless communication between the frontend and database.
                 </p>
               </span>
             </div>
@@ -50,9 +45,7 @@ const About = () => {
                   Backend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                Efficiently managing databases with MongoDB, designing schemas, and optimizing queries for high-performance applications. I ensure data integrity, security, and scalability.
                 </p>
               </span>
             </div>

@@ -1,7 +1,9 @@
 import About from "./Components/About/About"
 import Experience from "./Components/Experience/Experience"
+import Footer from "./Components/Footer/Footer"
 import Home from "./Components/Home/Home"
 import Navbar from "./Components/Navbar/Navbar"
+import Projects from "./Components/Projects/Projects"
 
 function App() {
   
@@ -12,6 +14,8 @@ function App() {
         <Home></Home>
         <About></About>
         <Experience></Experience>
+        <Projects></Projects>
+        <Footer></Footer>
     </div>
   )
 }
