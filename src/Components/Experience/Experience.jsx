@@ -1,11 +1,11 @@
 // import React from "react";
-import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { SiExpress, SiNodedotjs, SiRedis } from "react-icons/si";
+import { FaCss3, FaFigma, FaHtml5, FaJs, FaMicrosoft, FaReact } from "react-icons/fa";
+import { SiAdobephotoshop, SiExpress,} from "react-icons/si";
 import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { RiNetflixFill } from "react-icons/ri";
-import { FaAmazon } from "react-icons/fa";
-import { FaNode, FaNodeJs } from "react-icons/fa6";
+// import { RiMicrosoftLoopFill, RiNetflixFill } from "react-icons/ri";
+// import { FaAmazon } from "react-icons/fa";
+import { FaNode,  } from "react-icons/fa6";
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
@@ -41,39 +41,43 @@ const Experience = () => {
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <FaGoogle color="#4285F4" size={50} />
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer , Google</h2>
-              <p className="text-sm leading-tight font-thin">
+              <h2 className="leading-tight">Google</h2>
+              {/* <p className="text-sm leading-tight font-thin">
                 Sept 2023 - Present
-              </p>
+              </p> */}
               <ul className="text-sm p-2">
-                <li>- Work as software developer</li>
-                <li>- Senior SDE-developer</li>
+                <li>- Browser debugging, DevTools for web development</li>
+                <li>- Developing scalable and efficient web applications.</li>
+                <li>- Enhancing user experience with optimized frontend solutions.</li>
+                <li>- Implementing secure and reliable backend services.</li>
               </ul>
             </span>
           </div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <RiNetflixFill color="#E50914" size={50} />
+            <SiAdobephotoshop color="#4285F4" size={50} />
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
-              <p className="text-sm leading-tight font-thin">
+              <h2 className="leading-tight"> Adobe Photoshop</h2>
+              {/* <p className="text-sm leading-tight font-thin">
                 Sept 2023 - Present
-              </p>
+              </p> */}
               <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
+                <li>- UI/UX design, photo editing</li>
+                <li>- photo editing</li>
+                <li>- graphic design</li>
               </ul>
             </span>
           </div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <FaAmazon color="#FF9900" size={50} />
+            <FaMicrosoft color="#FF9900" size={50} />
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
-              <p className="text-sm leading-tight font-thin">
+              <h2 className="leading-tight">Microsoft Office</h2>
+              {/* <p className="text-sm leading-tight font-thin">
                 Sept 2023 - Present
-              </p>
+              </p> */}
               <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
+                <li>- Microsoft Word</li>
+                <li>- Microsoft Excel</li>
+                <li>- Microsoft PowerPoint</li>
               </ul>
             </span>
           </div>

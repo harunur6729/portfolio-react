@@ -1,12 +1,16 @@
 import  { useState } from "react";
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
+import { MdCall } from "react-icons/md";
 
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowmenu] = useState(true);
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Portfolio</span>
+     <div className="text-xl flex gap-4 items-center font-bold tracking-wide ">
+     <span >Portfolio </span>
+     <span className="flex gap-1 items-center">(<MdCall></MdCall> 01738945147)</span>
+     </div>
 
       <ul
         className={`${
