@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
      <div className="text-xl flex gap-4 items-center font-bold tracking-wide ">
-     <span >Portfolio </span>
-     <span className="flex gap-1 items-center">(<MdCall></MdCall> 01738945147)</span>
+     <span >Portfolio</span>
+     <span className="flex gap-1 items-center text-sm">(<MdCall></MdCall>01738945147)</span>
      </div>
 
       <ul
