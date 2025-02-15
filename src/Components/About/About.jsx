@@ -30,7 +30,7 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
+                Backend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                 Building robust and scalable backend architectures using Node.js and Express.js. I focus on API development, authentication, and server-side logic to ensure seamless communication between the frontend and database.
@@ -42,7 +42,7 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
+                Database developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                 Efficiently managing databases with MongoDB, designing schemas, and optimizing queries for high-performance applications. I ensure data integrity, security, and scalability.
