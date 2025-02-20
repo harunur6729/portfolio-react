@@ -4,6 +4,7 @@ import healthcare from "../../assets/Project_img/FinalYearProject.png";
 import dragonNews from "../../assets/Project_img/DragonNews.png";
 import school from "../../assets/Project_img/school_manegement_system.png";
 import wordTour from "../../assets/Project_img/wordTour.png";
+import bookReview from "../../assets/Project_img/bookReview.png"
 
 const Projects = () => {
   return (
@@ -39,6 +40,13 @@ const Projects = () => {
           main=" This is Word Tour Project "
           demoLink="https://dragon-news-code-snou.vercel.app/"
           sourceLink="https://github.com/harunur6729/react-world-tour"
+        />
+        <ProjectCard
+          bannerImg={bookReview}
+          title=" Book Review and Listing "
+          main=" Books to freshen up your bookshelf "
+          demoLink="https://book-review-assignment-8.vercel.app/"
+          sourceLink="https://github.com/harunur6729/book-review-assignment-8"
         />
 
         
