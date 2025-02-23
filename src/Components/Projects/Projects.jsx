@@ -23,7 +23,7 @@ const Projects = () => {
           bannerImg={dragonNews}
           title="Dragon News "
           main=" This is a News Paper demo "
-          demoLink="https://dragon-news-code.vercel.app/category/01"
+          demoLink="https://dragon-news-71f4a.web.app/category/01"
           sourceLink="https://github.com/harunur6729/dragon-news-code"
         />
 
