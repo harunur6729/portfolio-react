@@ -43,9 +43,7 @@ Database: MongoDB (with Mongoose)
 
 Deployment: Firebase Hosting (Frontend), Render (Backend API) "
           demoLink="https://coffee-store-b0743.web.app/"
-          sourceLink="Client: https://github.com/harunur6729/coffee-store-client
-          Server: https://github.com/harunur6729/coffee-store-server
-          "
+          sourceLink="https://github.com/harunur6729/coffee-store-client"
         />
 
         <ProjectCard
