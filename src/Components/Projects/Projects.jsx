@@ -30,9 +30,7 @@ const Projects = () => {
         <ProjectCard
           bannerImg={coffeeHouse}
           title="Coffee House"
-          main=" Description:
-Simple Coffee Store is a full-stack web application designed for managing a collection of coffee products. Users can add, update, delete coffees in a clean and user-friendly interface.
-
+          main="Simple Coffee Store is a full-stack web application designed for managing a collection of coffee products. Users can add, update, delete coffees in a clean and user-friendly interface.
 
 Technologies Used:
 Frontend: React.js, Tailwind CSS
@@ -41,9 +39,9 @@ Backend: Node.js, Express.js
 
 Database: MongoDB (with Mongoose)
 
-Deployment: Firebase Hosting (Frontend), Render (Backend API) "
+Deployment: Firebase Hosting (Frontend) and vercel Hosting (Backend)"
           demoLink="https://coffee-store-b0743.web.app/"
-          sourceLink="https://github.com/harunur6729/coffee-store-client"
+          sourceLink="https://github.com/harunur6729/simple-coffee-house"
         />
 
         <ProjectCard
