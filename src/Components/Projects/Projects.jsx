@@ -16,7 +16,7 @@ const Projects = () => {
           title="Public Healthcare System"
           main=" This is my final year web-based project "
           demoLink="https://public-healthcare-system-client.vercel.app/" 
-          sourceLink="https://github.com/harunur6729/Public-Healthcare-System-Client"
+          sourceLink="https://github.com/harunur6729/final-year-project"
         />
 
         <ProjectCard
