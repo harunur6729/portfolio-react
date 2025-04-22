@@ -4,7 +4,7 @@ import healthcare from "../../assets/Project_img/FinalYearProject.png";
 import dragonNews from "../../assets/Project_img/DragonNews.png";
 import school from "../../assets/Project_img/school_manegement_system.png";
 import wordTour from "../../assets/Project_img/wordTour.png";
-import bookReview from "../../assets/Project_img/bookReview.png"
+import bookReview from "../../assets/Project_img/bookReview.png";
 
 const Projects = () => {
   return (
@@ -12,10 +12,10 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectCard
-        bannerImg={healthcare}
+          bannerImg={healthcare}
           title="Public Healthcare System"
           main=" This is my final year web-based project "
-          demoLink="https://public-healthcare-system-client.vercel.app/" 
+          demoLink="https://public-healthcare-system-client.vercel.app/"
           sourceLink="https://github.com/harunur6729/final-year-project"
         />
 
@@ -25,6 +25,26 @@ const Projects = () => {
           main=" This is a News Paper demo "
           demoLink="https://dragon-news-71f4a.web.app/category/01"
           sourceLink="https://github.com/harunur6729/dragon-news-code"
+        />
+        <ProjectCard
+          bannerImg={dragonNews}
+          title="Coffee House"
+          main=" Description:
+Simple Coffee Store is a full-stack web application designed for managing a collection of coffee products. Users can add, update, delete coffees in a clean and user-friendly interface.
+
+
+Technologies Used:
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Database: MongoDB (with Mongoose)
+
+Deployment: Firebase Hosting (Frontend), Render (Backend API) "
+          demoLink="https://coffee-store-b0743.web.app/"
+          sourceLink="Client: https://github.com/harunur6729/coffee-store-client
+          Server: https://github.com/harunur6729/coffee-store-server
+          "
         />
 
         <ProjectCard
@@ -48,9 +68,6 @@ const Projects = () => {
           demoLink="https://book-review-assignment-8.vercel.app/"
           sourceLink="https://github.com/harunur6729/book-review-assignment-8"
         />
-
-        
-      
       </div>
     </div>
   );
