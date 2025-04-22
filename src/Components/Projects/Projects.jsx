@@ -5,6 +5,7 @@ import dragonNews from "../../assets/Project_img/DragonNews.png";
 import school from "../../assets/Project_img/school_manegement_system.png";
 import wordTour from "../../assets/Project_img/wordTour.png";
 import bookReview from "../../assets/Project_img/bookReview.png";
+import coffeeHouse from "../../assets/Project_img/coffeeHouse.png"
 
 const Projects = () => {
   return (
@@ -27,7 +28,7 @@ const Projects = () => {
           sourceLink="https://github.com/harunur6729/dragon-news-code"
         />
         <ProjectCard
-          bannerImg={dragonNews}
+          bannerImg={coffeeHouse}
           title="Coffee House"
           main=" Description:
 Simple Coffee Store is a full-stack web application designed for managing a collection of coffee products. Users can add, update, delete coffees in a clean and user-friendly interface.
